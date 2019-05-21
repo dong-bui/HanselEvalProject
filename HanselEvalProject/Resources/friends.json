@@ -1,0 +1,69 @@
+[{
+    "full_name": "Landon Clark",
+    "user_name": "@landon",
+    "image_url": "Profile Img_1",
+    "is_following": true
+},
+
+{
+    "full_name": "Felix Hamilton",
+    "user_name": "@felix",
+    "image_url": "Profile Img_2",
+    "is_following": false
+},
+
+{
+    "full_name": "Josh Ranger",
+    "user_name": "@josh_24",
+    "image_url": "Profile Img_3",
+    "is_following": false
+},
+
+{
+    "full_name": "Niki McDuffie",
+    "user_name": "@Duffle",
+    "image_url": "Profile Img_4",
+    "is_following": false
+},
+
+{
+    "full_name": "Elisa Finch",
+    "user_name": "@efinch",
+    "image_url": "Profile Img_5",
+    "is_following": false
+},
+
+{
+    "full_name": "James Bond",
+    "user_name": "@bond",
+    "image_url": "Profile Img_6",
+    "is_following": false
+},
+
+{
+    "full_name": "Brad Pitt",
+    "user_name": "@pitt",
+    "image_url": "Profile Img_7",
+    "is_following": false
+},
+
+{
+    "full_name": "Angelina Jolie",
+    "user_name": "@jolie",
+    "image_url": "Profile Img_8",
+    "is_following": false
+},
+
+{
+    "full_name": "Bill Gates",
+    "user_name": "@gates",
+    "image_url": "Profile Img_9",
+    "is_following": false
+},
+
+{
+    "full_name": "Tim Cook",
+    "user_name": "@tim",
+    "image_url": "Profile Img_10",
+    "is_following": false
+}]

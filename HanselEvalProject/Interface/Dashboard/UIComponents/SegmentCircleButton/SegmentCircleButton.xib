@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentCircleButton" customModule="HanselEvalProject" customModuleProvider="target">
+            <connections>
+                <outlet property="lblSegmentTitle" destination="TnA-Jj-RCM" id="0dp-Fy-1zu"/>
+                <outlet property="vwContainer" destination="Txf-eL-KLy" id="aT6-jB-XCA"/>
+                <outlet property="vwSegmentCircle" destination="CqF-fF-UXV" id="u2R-r2-maY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Txf-eL-KLy">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Places" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnA-Jj-RCM" userLabel="lblSegmentTitle">
+                    <rect key="frame" x="0.0" y="0.0" width="285" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="kgC-3W-E8I"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMd-xv-ANp" userLabel="btnSegment">
+                    <rect key="frame" x="0.0" y="0.0" width="285" height="67"/>
+                    <connections>
+                        <action selector="onTapSegment:" destination="-1" eventType="touchUpInside" id="rB5-jd-XKJ"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CqF-fF-UXV" userLabel="vwSegmentCircle">
+                    <rect key="frame" x="137.5" y="27" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="Q72-dp-p2k"/>
+                        <constraint firstAttribute="height" constant="10" id="kuF-m0-RGo"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pMd-xv-ANp" firstAttribute="leading" secondItem="M4g-L2-Pgl" secondAttribute="leading" id="9l5-Uc-3MS"/>
+                <constraint firstAttribute="bottom" secondItem="pMd-xv-ANp" secondAttribute="bottom" id="9zy-ia-ifR"/>
+                <constraint firstItem="pMd-xv-ANp" firstAttribute="top" secondItem="M4g-L2-Pgl" secondAttribute="top" id="JfJ-kq-fN9"/>
+                <constraint firstItem="TnA-Jj-RCM" firstAttribute="top" secondItem="M4g-L2-Pgl" secondAttribute="top" id="O4y-JO-CZ5"/>
+                <constraint firstItem="pMd-xv-ANp" firstAttribute="trailing" secondItem="M4g-L2-Pgl" secondAttribute="trailing" id="O6n-5I-fqV"/>
+                <constraint firstItem="M4g-L2-Pgl" firstAttribute="trailing" secondItem="TnA-Jj-RCM" secondAttribute="trailing" id="StF-Rw-AgZ"/>
+                <constraint firstItem="CqF-fF-UXV" firstAttribute="centerX" secondItem="Txf-eL-KLy" secondAttribute="centerX" id="aTf-fI-jr5"/>
+                <constraint firstItem="CqF-fF-UXV" firstAttribute="top" secondItem="TnA-Jj-RCM" secondAttribute="bottom" constant="5" id="mus-pj-pdm"/>
+                <constraint firstItem="TnA-Jj-RCM" firstAttribute="leading" secondItem="M4g-L2-Pgl" secondAttribute="leading" id="xJ3-8M-q4P"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="M4g-L2-Pgl"/>
+            <point key="canvasLocation" x="-311.19999999999999" y="-22.03898050974513"/>
+        </view>
+    </objects>
+</document>

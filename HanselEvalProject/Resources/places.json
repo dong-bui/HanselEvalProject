@@ -1,0 +1,17 @@
+[{
+    "location": "Paris",
+    "image_url": "Paris",
+    "spots": 5
+},
+
+{
+    "location": "New York",
+    "image_url": "New York",
+    "spots": 7
+},
+
+{
+    "location": "Los Angeles",
+    "image_url": "Los Angeles",
+    "spots": 3
+}]

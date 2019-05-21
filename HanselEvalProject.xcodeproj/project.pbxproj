@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338533CB39F894E565CD4158 /* Pods_HanselEvalProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3835EB1BEDC72F6014A8018F /* Pods_HanselEvalProjectUITests.framework */; };
+		503EF8A3219D117000922340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8A2219D117000922340 /* AppDelegate.swift */; };
+		503EF8AA219D117400922340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503EF8A9219D117400922340 /* Assets.xcassets */; };
+		503EF8AD219D117400922340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503EF8AB219D117400922340 /* LaunchScreen.storyboard */; };
+		503EF8B8219D117400922340 /* HanselEvalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8B7219D117400922340 /* HanselEvalProjectTests.swift */; };
+		503EF8C3219D117400922340 /* HanselEvalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8C2219D117400922340 /* HanselEvalProjectUITests.swift */; };
+		503EF8E1219D793100922340 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503EF8E0219D793100922340 /* Dashboard.storyboard */; };
+		503EF8E5219D798B00922340 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8E4219D798B00922340 /* HomeViewController.swift */; };
+		503EF8E8219DCDE000922340 /* SegmentCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8E7219DCDE000922340 /* SegmentCircleButton.swift */; };
+		503EF8EB219DD36600922340 /* SegmentCircleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 503EF8EA219DD36600922340 /* SegmentCircleButton.xib */; };
+		503EF8EE219E1D0E00922340 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8ED219E1D0E00922340 /* GlobalConstants.swift */; };
+		503EF8F0219E601200922340 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8EF219E601200922340 /* CustomView.swift */; };
+		503EF8F5219E606E00922340 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8F4219E606E00922340 /* FriendsViewController.swift */; };
+		503EF8F7219E607D00922340 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8F6219E607D00922340 /* FavoritesViewController.swift */; };
+		503EF8F9219E608700922340 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8F8219E608700922340 /* PlacesViewController.swift */; };
+		503EF8FB219E6F4600922340 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8FA219E6F4600922340 /* CustomLabel.swift */; };
+		503EF8FD219E838400922340 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8FC219E838400922340 /* Place.swift */; };
+		503EF8FF219E839700922340 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF8FE219E839700922340 /* Person.swift */; };
+		503EF908219EC57500922340 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF907219EC57500922340 /* PlaceTableViewCell.swift */; };
+		503EF90B219EC9CB00922340 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF90A219EC9CB00922340 /* FriendTableViewCell.swift */; };
+		505BB92A21A51A1A0064313C /* friends.json in Resources */ = {isa = PBXBuildFile; fileRef = 505BB92821A51A1A0064313C /* friends.json */; };
+		505BB92B21A51A1A0064313C /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 505BB92921A51A1A0064313C /* places.json */; };
+		5C1AE6A5D234876947A630C6 /* Pods_HanselEvalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2180567E0F9447B9DF18019 /* Pods_HanselEvalProject.framework */; };
+		D8D552D413A34A773700215C /* Pods_HanselEvalProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A5242A62ED301D79B1629A /* Pods_HanselEvalProjectTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503EF8B4219D117400922340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503EF897219D117000922340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503EF89E219D117000922340;
+			remoteInfo = HanselEvalProject;
+		};
+		503EF8BF219D117400922340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503EF897219D117000922340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503EF89E219D117000922340;
+			remoteInfo = HanselEvalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29A5242A62ED301D79B1629A /* Pods_HanselEvalProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanselEvalProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3835EB1BEDC72F6014A8018F /* Pods_HanselEvalProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanselEvalProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483E344942BE2486417EE814 /* Pods-HanselEvalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanselEvalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanselEvalProject/Pods-HanselEvalProject.release.xcconfig"; sourceTree = "<group>"; };
+		503EF89F219D117000922340 /* HanselEvalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanselEvalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503EF8A2219D117000922340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		503EF8A9219D117400922340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		503EF8AC219D117400922340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		503EF8AE219D117400922340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503EF8B3219D117400922340 /* HanselEvalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanselEvalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503EF8B7219D117400922340 /* HanselEvalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselEvalProjectTests.swift; sourceTree = "<group>"; };
+		503EF8B9219D117400922340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503EF8BE219D117400922340 /* HanselEvalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanselEvalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503EF8C2219D117400922340 /* HanselEvalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanselEvalProjectUITests.swift; sourceTree = "<group>"; };
+		503EF8C4219D117400922340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503EF8E0219D793100922340 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		503EF8E4219D798B00922340 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		503EF8E7219DCDE000922340 /* SegmentCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentCircleButton.swift; sourceTree = "<group>"; };
+		503EF8EA219DD36600922340 /* SegmentCircleButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentCircleButton.xib; sourceTree = "<group>"; };
+		503EF8ED219E1D0E00922340 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		503EF8EF219E601200922340 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		503EF8F4219E606E00922340 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		503EF8F6219E607D00922340 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		503EF8F8219E608700922340 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		503EF8FA219E6F4600922340 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		503EF8FC219E838400922340 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		503EF8FE219E839700922340 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		503EF907219EC57500922340 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		503EF90A219EC9CB00922340 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		505BB92821A51A1A0064313C /* friends.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friends.json; sourceTree = "<group>"; };
+		505BB92921A51A1A0064313C /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		628A750ABF8E188740B91E86 /* Pods-HanselEvalProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanselEvalProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanselEvalProjectUITests/Pods-HanselEvalProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1FC11F92097A9E80AED153 /* Pods-HanselEvalProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanselEvalProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanselEvalProjectUITests/Pods-HanselEvalProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4D8E2899DD58131D176AF45 /* Pods-HanselEvalProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanselEvalProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanselEvalProjectTests/Pods-HanselEvalProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5C24745862282033DDD6D16 /* Pods-HanselEvalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanselEvalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanselEvalProject/Pods-HanselEvalProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D653B06D30E84F8B76CF34CE /* Pods-HanselEvalProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanselEvalProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanselEvalProjectTests/Pods-HanselEvalProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2180567E0F9447B9DF18019 /* Pods_HanselEvalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanselEvalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503EF89C219D117000922340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1AE6A5D234876947A630C6 /* Pods_HanselEvalProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503EF8B0219D117400922340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D552D413A34A773700215C /* Pods_HanselEvalProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503EF8BB219D117400922340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338533CB39F894E565CD4158 /* Pods_HanselEvalProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503EF896219D117000922340 = {
+			isa = PBXGroup;
+			children = (
+				503EF8A1219D117000922340 /* HanselEvalProject */,
+				503EF8B6219D117400922340 /* HanselEvalProjectTests */,
+				503EF8C1219D117400922340 /* HanselEvalProjectUITests */,
+				503EF8A0219D117000922340 /* Products */,
+				ABC74136A59DAFF353FFF4D3 /* Pods */,
+				C0C411F2221D3D0324B8FD6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		503EF8A0219D117000922340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503EF89F219D117000922340 /* HanselEvalProject.app */,
+				503EF8B3219D117400922340 /* HanselEvalProjectTests.xctest */,
+				503EF8BE219D117400922340 /* HanselEvalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503EF8A1219D117000922340 /* HanselEvalProject */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8EC219E1C9E00922340 /* Globals */,
+				503EF8AE219D117400922340 /* Info.plist */,
+				503EF8DC219D783700922340 /* Resources */,
+				503EF8D3219D6E2600922340 /* SupportFiles */,
+				503EF8D2219D12A400922340 /* Model */,
+				503EF8D1219D11EB00922340 /* Interface */,
+			);
+			path = HanselEvalProject;
+			sourceTree = "<group>";
+		};
+		503EF8B6219D117400922340 /* HanselEvalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8B7219D117400922340 /* HanselEvalProjectTests.swift */,
+				503EF8B9219D117400922340 /* Info.plist */,
+			);
+			path = HanselEvalProjectTests;
+			sourceTree = "<group>";
+		};
+		503EF8C1219D117400922340 /* HanselEvalProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8C2219D117400922340 /* HanselEvalProjectUITests.swift */,
+				503EF8C4219D117400922340 /* Info.plist */,
+			);
+			path = HanselEvalProjectUITests;
+			sourceTree = "<group>";
+		};
+		503EF8D1219D11EB00922340 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8D5219D6E4700922340 /* Dashboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		503EF8D2219D12A400922340 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8FC219E838400922340 /* Place.swift */,
+				503EF8FE219E839700922340 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		503EF8D3219D6E2600922340 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8AB219D117400922340 /* LaunchScreen.storyboard */,
+				503EF8A2219D117000922340 /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		503EF8D5219D6E4700922340 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8DF219D78A900922340 /* HomeViewController */,
+				503EF8DE219D789600922340 /* UIComponents */,
+				503EF8DD219D788A00922340 /* Storyboard */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		503EF8DC219D783700922340 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				505BB92821A51A1A0064313C /* friends.json */,
+				505BB92921A51A1A0064313C /* places.json */,
+				503EF8A9219D117400922340 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		503EF8DD219D788A00922340 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8E0219D793100922340 /* Dashboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		503EF8DE219D789600922340 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8E6219DCDB400922340 /* SegmentCircleButton */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		503EF8DF219D78A900922340 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8E4219D798B00922340 /* HomeViewController.swift */,
+				503EF8F3219E604E00922340 /* FriendsViewController */,
+				503EF8F2219E604300922340 /* FavoritesViewController */,
+				503EF8F1219E603B00922340 /* PlacesViewController */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		503EF8E6219DCDB400922340 /* SegmentCircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8E7219DCDE000922340 /* SegmentCircleButton.swift */,
+				503EF8EA219DD36600922340 /* SegmentCircleButton.xib */,
+			);
+			path = SegmentCircleButton;
+			sourceTree = "<group>";
+		};
+		503EF8E9219DCFE000922340 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8EF219E601200922340 /* CustomView.swift */,
+				503EF8FA219E6F4600922340 /* CustomLabel.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		503EF8EC219E1C9E00922340 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8E9219DCFE000922340 /* UIComponents */,
+				503EF8ED219E1D0E00922340 /* GlobalConstants.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		503EF8F1219E603B00922340 /* PlacesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				503EF904219EC54B00922340 /* UIComponents */,
+				503EF8F8219E608700922340 /* PlacesViewController.swift */,
+			);
+			path = PlacesViewController;
+			sourceTree = "<group>";
+		};
+		503EF8F2219E604300922340 /* FavoritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				503EF8F6219E607D00922340 /* FavoritesViewController.swift */,
+			);
+			path = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		503EF8F3219E604E00922340 /* FriendsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				503EF909219EC9B600922340 /* UIComponents */,
+				503EF8F4219E606E00922340 /* FriendsViewController.swift */,
+			);
+			path = FriendsViewController;
+			sourceTree = "<group>";
+		};
+		503EF904219EC54B00922340 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				503EF907219EC57500922340 /* PlaceTableViewCell.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		503EF909219EC9B600922340 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				503EF90A219EC9CB00922340 /* FriendTableViewCell.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		ABC74136A59DAFF353FFF4D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5C24745862282033DDD6D16 /* Pods-HanselEvalProject.debug.xcconfig */,
+				483E344942BE2486417EE814 /* Pods-HanselEvalProject.release.xcconfig */,
+				B4D8E2899DD58131D176AF45 /* Pods-HanselEvalProjectTests.debug.xcconfig */,
+				D653B06D30E84F8B76CF34CE /* Pods-HanselEvalProjectTests.release.xcconfig */,
+				628A750ABF8E188740B91E86 /* Pods-HanselEvalProjectUITests.debug.xcconfig */,
+				8B1FC11F92097A9E80AED153 /* Pods-HanselEvalProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0C411F2221D3D0324B8FD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2180567E0F9447B9DF18019 /* Pods_HanselEvalProject.framework */,
+				29A5242A62ED301D79B1629A /* Pods_HanselEvalProjectTests.framework */,
+				3835EB1BEDC72F6014A8018F /* Pods_HanselEvalProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503EF89E219D117000922340 /* HanselEvalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503EF8C7219D117400922340 /* Build configuration list for PBXNativeTarget "HanselEvalProject" */;
+			buildPhases = (
+				84B9A61F1909CAB3ACA1871C /* [CP] Check Pods Manifest.lock */,
+				503EF89B219D117000922340 /* Sources */,
+				503EF89C219D117000922340 /* Frameworks */,
+				503EF89D219D117000922340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanselEvalProject;
+			productName = HanselEvalProject;
+			productReference = 503EF89F219D117000922340 /* HanselEvalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		503EF8B2219D117400922340 /* HanselEvalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503EF8CA219D117400922340 /* Build configuration list for PBXNativeTarget "HanselEvalProjectTests" */;
+			buildPhases = (
+				96B0688256E78AC49966B04B /* [CP] Check Pods Manifest.lock */,
+				503EF8AF219D117400922340 /* Sources */,
+				503EF8B0219D117400922340 /* Frameworks */,
+				503EF8B1219D117400922340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503EF8B5219D117400922340 /* PBXTargetDependency */,
+			);
+			name = HanselEvalProjectTests;
+			productName = HanselEvalProjectTests;
+			productReference = 503EF8B3219D117400922340 /* HanselEvalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		503EF8BD219D117400922340 /* HanselEvalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503EF8CD219D117400922340 /* Build configuration list for PBXNativeTarget "HanselEvalProjectUITests" */;
+			buildPhases = (
+				01A02BBFA1FC61B61A21B613 /* [CP] Check Pods Manifest.lock */,
+				503EF8BA219D117400922340 /* Sources */,
+				503EF8BB219D117400922340 /* Frameworks */,
+				503EF8BC219D117400922340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503EF8C0219D117400922340 /* PBXTargetDependency */,
+			);
+			name = HanselEvalProjectUITests;
+			productName = HanselEvalProjectUITests;
+			productReference = 503EF8BE219D117400922340 /* HanselEvalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503EF897219D117000922340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Hansel;
+				TargetAttributes = {
+					503EF89E219D117000922340 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					503EF8B2219D117400922340 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 503EF89E219D117000922340;
+					};
+					503EF8BD219D117400922340 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 503EF89E219D117000922340;
+					};
+				};
+			};
+			buildConfigurationList = 503EF89A219D117000922340 /* Build configuration list for PBXProject "HanselEvalProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503EF896219D117000922340;
+			productRefGroup = 503EF8A0219D117000922340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503EF89E219D117000922340 /* HanselEvalProject */,
+				503EF8B2219D117400922340 /* HanselEvalProjectTests */,
+				503EF8BD219D117400922340 /* HanselEvalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503EF89D219D117000922340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503EF8AD219D117400922340 /* LaunchScreen.storyboard in Resources */,
+				503EF8E1219D793100922340 /* Dashboard.storyboard in Resources */,
+				503EF8EB219DD36600922340 /* SegmentCircleButton.xib in Resources */,
+				505BB92B21A51A1A0064313C /* places.json in Resources */,
+				503EF8AA219D117400922340 /* Assets.xcassets in Resources */,
+				505BB92A21A51A1A0064313C /* friends.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503EF8B1219D117400922340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503EF8BC219D117400922340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01A02BBFA1FC61B61A21B613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HanselEvalProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B9A61F1909CAB3ACA1871C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HanselEvalProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B0688256E78AC49966B04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HanselEvalProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503EF89B219D117000922340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503EF8F0219E601200922340 /* CustomView.swift in Sources */,
+				503EF8FB219E6F4600922340 /* CustomLabel.swift in Sources */,
+				503EF8E8219DCDE000922340 /* SegmentCircleButton.swift in Sources */,
+				503EF8F7219E607D00922340 /* FavoritesViewController.swift in Sources */,
+				503EF8FF219E839700922340 /* Person.swift in Sources */,
+				503EF8A3219D117000922340 /* AppDelegate.swift in Sources */,
+				503EF8F9219E608700922340 /* PlacesViewController.swift in Sources */,
+				503EF90B219EC9CB00922340 /* FriendTableViewCell.swift in Sources */,
+				503EF8EE219E1D0E00922340 /* GlobalConstants.swift in Sources */,
+				503EF8F5219E606E00922340 /* FriendsViewController.swift in Sources */,
+				503EF8E5219D798B00922340 /* HomeViewController.swift in Sources */,
+				503EF8FD219E838400922340 /* Place.swift in Sources */,
+				503EF908219EC57500922340 /* PlaceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503EF8AF219D117400922340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503EF8B8219D117400922340 /* HanselEvalProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503EF8BA219D117400922340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503EF8C3219D117400922340 /* HanselEvalProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		503EF8B5219D117400922340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503EF89E219D117000922340 /* HanselEvalProject */;
+			targetProxy = 503EF8B4219D117400922340 /* PBXContainerItemProxy */;
+		};
+		503EF8C0219D117400922340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503EF89E219D117000922340 /* HanselEvalProject */;
+			targetProxy = 503EF8BF219D117400922340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		503EF8AB219D117400922340 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503EF8AC219D117400922340 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		503EF8C5219D117400922340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		503EF8C6219D117400922340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503EF8C8219D117400922340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C24745862282033DDD6D16 /* Pods-HanselEvalProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanselEvalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxb.hanselevalproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		503EF8C9219D117400922340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483E344942BE2486417EE814 /* Pods-HanselEvalProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanselEvalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxb.hanselevalproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		503EF8CB219D117400922340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D8E2899DD58131D176AF45 /* Pods-HanselEvalProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanselEvalProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rxb.HanselEvalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanselEvalProject.app/HanselEvalProject";
+			};
+			name = Debug;
+		};
+		503EF8CC219D117400922340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D653B06D30E84F8B76CF34CE /* Pods-HanselEvalProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanselEvalProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rxb.HanselEvalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanselEvalProject.app/HanselEvalProject";
+			};
+			name = Release;
+		};
+		503EF8CE219D117400922340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628A750ABF8E188740B91E86 /* Pods-HanselEvalProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanselEvalProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rxb.HanselEvalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanselEvalProject;
+			};
+			name = Debug;
+		};
+		503EF8CF219D117400922340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1FC11F92097A9E80AED153 /* Pods-HanselEvalProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanselEvalProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rxb.HanselEvalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanselEvalProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503EF89A219D117000922340 /* Build configuration list for PBXProject "HanselEvalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503EF8C5219D117400922340 /* Debug */,
+				503EF8C6219D117400922340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503EF8C7219D117400922340 /* Build configuration list for PBXNativeTarget "HanselEvalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503EF8C8219D117400922340 /* Debug */,
+				503EF8C9219D117400922340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503EF8CA219D117400922340 /* Build configuration list for PBXNativeTarget "HanselEvalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503EF8CB219D117400922340 /* Debug */,
+				503EF8CC219D117400922340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503EF8CD219D117400922340 /* Build configuration list for PBXNativeTarget "HanselEvalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503EF8CE219D117400922340 /* Debug */,
+				503EF8CF219D117400922340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503EF897219D117000922340 /* Project object */;
+}

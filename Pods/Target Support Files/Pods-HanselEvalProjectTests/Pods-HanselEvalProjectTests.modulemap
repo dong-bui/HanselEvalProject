@@ -1,0 +1,6 @@
+framework module Pods_HanselEvalProjectTests {
+  umbrella header "Pods-HanselEvalProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
